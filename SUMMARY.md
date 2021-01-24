@@ -2,3 +2,13 @@
 
 * [Introduction](README.md)
 
+## Installation & Configuration
+
+* [Installation & Update](installation-and-configuration/installation-and-update.md)
+* [Configuration](installation-and-configuration/configuration.md)
+
+## Commands
+
+* [dbt-sugar doc](commands/dbt-sugar-doc/README.md)
+  * [doc CLI reference](commands/dbt-sugar-doc/doc-cli-reference.md)
+
