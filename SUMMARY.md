@@ -5,7 +5,8 @@
 ## Installation & Configuration
 
 * [Installation & Update](installation-and-configuration/installation-and-update.md)
-* [Configuration](installation-and-configuration/configuration.md)
+* [Configuration](installation-and-configuration/configuration/README.md)
+  * [Sugar Config](installation-and-configuration/configuration/sugar-config.md)
 
 ## Commands
 
