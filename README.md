@@ -1,21 +1,21 @@
 # Introduction
 
 {% hint style="warning" %}
- **Development of an MVP version is currently underway** and happening on [bitpicky/dbt-sugar](https://github.com/bitpicky/dbt-sugar). **We absolutely would welcome any help from feature requests, discussion in issues, help with database connector testing etc.**  
+ **dbt-sugar is very much under active development. Development happens on** [bitpicky/dbt-sugar](https://github.com/bitpicky/dbt-sugar). **We absolutely would welcome any help from feature requests, discussion in issues, help with database connector testing to actual code changes! 🤗.**  
   
-If you're more the chatty person you can also join the community on our [Discord](https://discord.gg/cQB49ejbCA).
+Join the community on our [Discord](https://discord.gg/cQB49ejbCA).
 {% endhint %}
 
 ## What is dbt-sugar?
 
-dbt-sugar is a command line interface tool that allows users of [dbt](https://www.getdbt.com/) to perform tasks such as **adding column and model documentation** and **test enforcement** directly from the CLI across a variety of dbt projects.
+dbt-sugar is a command-line interface tool that allows users of [dbt](https://www.getdbt.com/) to perform tasks such as **adding column and model documentation, enforce test coverage and tags \(more to come\)** directly from the CLI across a variety of dbt projects. Check out the [project roadmap ](https://github.com/bitpicky/dbt-sugar/blob/main/ROADMAP.md)if you want to know what is coming!
 
-### Overview of Features
+### Overview of Current Features
 
 #### Documentation Task
 
-* document a model
-* document columns of a model \(and propagate description across fields that are identically named, we call this "homogeneise",
+* document a model's description
+* document columns of a model \(and propagate description across fields that are identically named, we call this "homogeneise" and it is the main reason behind why we built dbt-sugar,
 * add common `dbt` builtin tests such as `unique` or `not_null`,
 * add tags
 
