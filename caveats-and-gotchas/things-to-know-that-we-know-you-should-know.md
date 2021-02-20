@@ -1,0 +1,14 @@
+# Things to Know That We Know You Should Know
+
+## Can dbt-sugar manage more than one dbt projects at a time?
+
+The short answer is yes! You can create as many [**syrups**](../installation-and-configuration/configuration/sugar-config.md) as you have dbt projects. However, since dbt-sugar attempts to homogenise column definitions across your entire dbt project and since you may manage multiple dbt project in your data-warehouse and **still** want to homogenise across multiple projects, the long answer is "Yes, but it will have limitations.
+
+We plan to allow more than one dbt project per syrup \(scope\) in a future 
+
+## Can dbt-sugar stop messing with other model columns' definitions?
+
+Right now, no. We built dbt-sugar with a strong opinion that a column name should mean one thing and only one thing across all your dbt models. Achieving this opinion is particularly hard without a tool like dbt-sugar and that is why we built it. **However,** **we know this might not work for everyone \(especially users with more mature warehouses\), we plan to allow for this feature to be turned off in the `sugar_config.yml` in the next feature release of dbt sugar.**
+
+
+

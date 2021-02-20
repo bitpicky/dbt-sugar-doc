@@ -5,12 +5,12 @@
 {% hint style="info" %}
 **Python 3.6 and up**
 
-dbt-sugar is written in python and is compatible with versions of python 3.6 and up. Make sure you get that sorted before you get started with dbt-sugar.
+dbt-sugar is written in python and is compatible with versions of python 3.6 and up.
 {% endhint %}
 
 ### Install Using Pipx \(strongly recommended\)
 
-`pipx` is a \(fairly new\) way to install python packages and apps **globally** while keeping each of them in their separate virtual environments under the hood. Just like `brew` it will allow you to access dbt-sugar globally, but **unlike brew it will keep dbt-sugar in it's own virtual envirobment and prevent it from being bullied by other apps you may have set up globally**. Best of both worlds!
+`pipx` is a \(fairly new\) way to install python packages and apps **globally** while keeping each of them in their separate virtual environments under the hood. Just like `brew` it will allow you to access dbt-sugar globally, but **unlike \`brew\` it will keep dbt-sugar in its own virtual environent and prevent it from being bullied by other apps you may have set up globally**. Best of both worlds!
 
 1. If you do not have `pipx` on your machine, install it with brew first by doing: `brew install pipx`.
 2. Once `pipx` is set on your machine you can use it to install dbt-sugar in a very similar way to how you would generally install python packages with the well known `pip` manager.
