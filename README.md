@@ -19,3 +19,7 @@ dbt-sugar is a command-line interface tool that allows users of [dbt](https://ww
 * add common `dbt` builtin tests such as `unique` or `not_null`,
 * add tags
 
+### What has recently changed?
+
+We maintain and keep our CHANGELOG up to date on the [GitHub repository](https://github.com/bitpicky/dbt-sugar/). Head over [there](https://github.com/bitpicky/dbt-sugar/blob/main/CHANGELOG.rst) if you want to see all the changes since the last release.
+
