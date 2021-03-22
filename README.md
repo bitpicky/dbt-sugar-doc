@@ -15,7 +15,7 @@ dbt-sugar is a command-line interface tool that allows users of [dbt](https://ww
 #### Documentation Task
 
 * document a model's description
-* document columns of a model \(and propagate description across fields that are identically named, we call this "homogeneise" and it is the main reason behind why we built dbt-sugar,
+* document columns of a model \(and propagate description across fields that are identically named, we call this "homogenise" and it is the main reason behind why we built dbt-sugar,
 * add common `dbt` builtin tests such as `unique` or `not_null`,
 * add tags
 
