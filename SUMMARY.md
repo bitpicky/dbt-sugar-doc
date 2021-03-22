@@ -17,7 +17,3 @@
 
 * [Things to Know That We Know You Should Know](caveats-and-gotchas/things-to-know-that-we-know-you-should-know.md)
 
----
-
-* [Untitled](untitled.md)
-
