@@ -1,4 +1,4 @@
-# Installation & Update
+# Installation
 
 ## Get dbt-sugar!
 

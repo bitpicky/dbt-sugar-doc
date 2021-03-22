@@ -1,4 +1,4 @@
-# doc CLI reference
+# doc CLI reference \(full-list\)
 
 ### Model Name
 
