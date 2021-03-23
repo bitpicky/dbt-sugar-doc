@@ -3,7 +3,7 @@
 {% hint style="warning" %}
  **dbt-sugar is very much under active development. Development happens on** [bitpicky/dbt-sugar](https://github.com/bitpicky/dbt-sugar). **We absolutely would welcome any help from feature requests, discussion in issues, help with database connector testing to actual code changes! 🤗.**  
   
-Join the community on our [Discord](https://discord.gg/cQB49ejbCA).
+Join the community on our [Discord](https://discord.com/invite/cQB49ejbCA).
 {% endhint %}
 
 ## What is dbt-sugar?
