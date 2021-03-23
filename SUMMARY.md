@@ -10,6 +10,7 @@
 
 ## Commands
 
+* [dbt-sugar audit](commands/dbt-sugar-audit.md)
 * [dbt-sugar doc](commands/dbt-sugar-doc/README.md)
   * [doc CLI reference \(full-list\)](commands/dbt-sugar-doc/doc-cli-reference.md)
 
