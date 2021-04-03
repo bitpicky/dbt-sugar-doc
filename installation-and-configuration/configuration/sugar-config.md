@@ -49,5 +49,5 @@ You may have a use case where you do not want dbt-sugar to consider some of your
 
 #### excluded\_folders:
 
-A bit like `excluded_tables` but to exclude entire folders of dbt models.
+A bit like `excluded_tables` but to exclude entire folders.
 
