@@ -45,5 +45,9 @@ Syrups are a list of entries made of a **name** which is how you will refer to t
 
 #### excluded\_tables:
 
-You may have a use case where you do not want dbt-sugar to consider some of your dbt models \(tables\). You can simply list those and dbt-sugar will ignore everything about it. For example, it will not attempt to document it, nor will it look up its definitions, tests, and tags in the case where you want to homogeneise column definitions across all your dbt models.
+You may have a use case where you do not want dbt-sugar to consider some of your dbt models \(tables\). You can simply list those and dbt-sugar will ignore everything about it. For example, it will not attempt to document it, nor will it look up its definitions, tests, and tags in the case where you want to homogenise column definitions across all your dbt models.
+
+#### excluded\_folders:
+
+A bit like `excluded_tables` but to exclude entire folders of dbt models.
 
