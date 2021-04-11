@@ -10,6 +10,10 @@ Join the community on our [Discord](https://discord.com/invite/cQB49ejbCA).
 
 dbt-sugar is a command-line interface tool that allows users of [dbt](https://www.getdbt.com/) to perform tasks such as **adding column and model documentation, enforce test coverage and tags \(more to come\)** directly from the CLI across a variety of dbt projects. Check out the [project roadmap ](https://github.com/bitpicky/dbt-sugar/blob/main/ROADMAP.md)if you want to know what is coming!
 
+### Here's the tool in action
+
+![dbt-sugar in action](.gitbook/assets/document_fct_orders.gif)
+
 ### Overview of Current Features
 
 #### Documentation Task
@@ -19,7 +23,11 @@ dbt-sugar is a command-line interface tool that allows users of [dbt](https://ww
 * add common `dbt` builtin tests such as `unique` or `not_null`,
 * add tags
 
+#### Audit Task
+
+* get a model or project level summary of the number of columns that are documented and tested.
+
 ### What has recently changed?
 
-We maintain and keep our CHANGELOG up to date on the [GitHub repository](https://github.com/bitpicky/dbt-sugar/). Head over [there](https://github.com/bitpicky/dbt-sugar/blob/main/CHANGELOG.rst) if you want to see all the changes since the last release.
+We maintain and keep our CHANGELOG up to date on the [GitHub repository](https://github.com/bitpicky/dbt-sugar/). Head over [there](https://github.com/bitpicky/dbt-sugar/blob/main/CHANGELOG.md) if you want to see all the changes since the last release.
 
