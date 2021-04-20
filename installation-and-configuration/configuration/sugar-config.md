@@ -55,6 +55,8 @@ A bit like `excluded_tables` but to exclude entire folders.
 
 {% hint style="info" %}
 Only applies to Snowflake warehouse users. **Experimental**!
+
+New in **v0.1.0**
 {% endhint %}
 
 If you're using Snowflake as your warehouse and have large schemas or tables, dbt-sugar might take a while to get all the information from your warehouse's `information_schema`. That is because the developers of the Snowflake SQLAlchemy plugin have opted for a slower method to get columns from a table \(see [https://github.com/snowflakedb/snowflake-sqlalchemy/issues/221](https://github.com/snowflakedb/snowflake-sqlalchemy/issues/221) and [https://github.com/bitpicky/dbt-sugar/issues/211](https://github.com/bitpicky/dbt-sugar/issues/211)\).
