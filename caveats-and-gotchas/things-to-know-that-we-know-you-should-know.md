@@ -14,5 +14,7 @@ We plan to allow more than one dbt project per syrup \(scope\) in a future
 
 Currently no, dbt-sugar only supports dbt's builting **uniqueness and not null tests.** The reason for that is because we currently re-implemented those tests in our codebase \(I know, that's bad\). **We are hard at work and looking into a solution that will allow users to add any tests,** this means any of the tests that your dbt project has scope over \(builtins but also tests coming from macros etc\). It's not trivial, as it requires diving a bit into dbt's internals and potentially being bitten by the yet to be stable API --some discussion on this is [happening here](https://github.com/bitpicky/dbt-sugar/issues/65).
 
+## Can the audit task report on models that are not yet documented?
 
+Currently no, we designed the `audit` task to be fast and to cost no warehouse credits. This means, we derive coverage statistics only for those models that have at least a model-level description in any of the `schema.yml` files. However, we agree that this may not be useful when you are just getting started or when you have a lot of un-documented models. We will be working on a solution in the next feature release. To learn more about this you can check this issue
 
