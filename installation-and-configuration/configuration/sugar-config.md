@@ -51,3 +51,31 @@ You may have a use case where you do not want dbt-sugar to consider some of your
 
 A bit like `excluded_tables` but to exclude entire folders.
 
+#### use\_describe\_snowflake:
+
+{% hint style="info" %}
+Only applies to Snowflake warehouse users. **Experimental**!
+{% endhint %}
+
+If you're using Snowflake as your warehouse and have large schemas or tables, dbt-sugar might take a while to get all the information from your warehouse's `information_schema`. That is because the developers of the Snowflake SQLAlchemy plugin have opted for a slower method to get columns from a table \(see [https://github.com/snowflakedb/snowflake-sqlalchemy/issues/221](https://github.com/snowflakedb/snowflake-sqlalchemy/issues/221) and [https://github.com/bitpicky/dbt-sugar/issues/211](https://github.com/bitpicky/dbt-sugar/issues/211)\).
+
+We therefore decided to allow users to opt in for an **experimental** alternative that uses `describe table` instead of `select` from `information_schema`. Set this argument to `true` and dbt-sugar will use this method from now on. **Needs to be set at the dbt\_projects level of your syrups \(as shown below\):**
+
+{% tabs %}
+{% tab title="sugar\_config.yml" %}
+```yaml
+defaults:
+  syrup: syrup_1
+  target: dev
+syrups:
+  - name: syrup_1
+    dbt_projects:
+      - name: dbt_sugar_test
+        path: "./tests/test_dbt_project/dbt_sugar_test"
+        excluded_tables:
+          - table_a
+        use_describe_snowflake: true
+```
+{% endtab %}
+{% endtabs %}
+
