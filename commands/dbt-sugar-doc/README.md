@@ -24,7 +24,7 @@ Call `dbt-sugar doc` and pass the following arguments:
 * you can pass a `--syrup` which is the name of the config \(See [Sugar Config](../../installation-and-configuration/configuration/sugar-config.md) for more information\) you want dbt-sugar to use. Syrups generally contain information such as which dbt\_projects are in scope and where these projects live on your machine. 
 
 {% hint style="success" %}
-**If you have configured a default syrup in your sugar\_config.yml you to now have to pass it to the CLI for every run**
+**If you have configured a default syrup in your sugar\_config.yml you do not have to pass it to the CLI for every run**
 {% endhint %}
 
 ```text
