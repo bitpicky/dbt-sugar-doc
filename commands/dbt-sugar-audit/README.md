@@ -4,8 +4,11 @@
 
 The `audit` task allows you to get quick statistics about the documentation and testing coverage of your dbt project. It comes in two flavours: project- and model-level. For both flavours we report **documentation coverage** \(the percentage of documented vs undocumented columns\) and **test coverage** \(the percentage of columns with _at least one test_ on them\). At the project-level we roll up those proportions across models to give you a summary of the state of the project and you can dig in more by running `dbt-sugar audit`  on a specific model.
 
-{% hint style="danger" %}
-the `audit` task can currently only report on models that have at least a model-level description or entry in model descriptor files \(`schema.yml`\). It is a known limitation and we will work on a more thorough approach in the next feature release \(see [issue \#210](https://github.com/bitpicky/dbt-sugar/issues/210)\)
+{% hint style="success" %}
+**New in `v0.1.0.`**   
+You can now make audit generate placeholders for all your models first so that it is 100% accurate, by adding the `--boostrap` CLI runtime argument. 
+
+**NOTE:** this has a side effect of generating a potentially large number of file changes and will be slower as calls have to be made to your database's information schema.
 {% endhint %}
 
 ### project-level audit
