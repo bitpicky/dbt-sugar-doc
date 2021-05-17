@@ -7,7 +7,7 @@ The `audit` task allows you to get quick statistics about the documentation and 
 {% hint style="danger" %}
 the `audit` task can currently only report on models that have at least a model-level description or entry in model descriptor files \(`schema.yml`\). It is a known limitation and we will work on a more thorough approach in the next feature release \(see [issue \#210](https://github.com/bitpicky/dbt-sugar/issues/210)\)
 
-Upgrade to `v0.1.0` to benefit from the bootstrap task.
+Upgrade to `v0.1.0` to benefit from the [bootstrap task](https://bitpicky.gitbook.io/dbt-sugar/v/v0.1.0/).
 {% endhint %}
 
 ### project-level audit
