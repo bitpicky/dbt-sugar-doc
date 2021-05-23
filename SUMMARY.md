@@ -10,6 +10,7 @@
 
 ## Commands
 
+* [Global CLI Flags](commands/global-cli-flags.md)
 * [dbt-sugar audit](commands/dbt-sugar-audit/README.md)
   * [audit CLI reference \(full-list\)](commands/dbt-sugar-audit/audit-cli-reference-full-list.md)
 * [dbt-sugar doc](commands/dbt-sugar-doc/README.md)
