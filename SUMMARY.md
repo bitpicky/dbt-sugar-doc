@@ -7,6 +7,7 @@
 * [Installation](installation-and-configuration/installation-and-update.md)
 * [Configuration](installation-and-configuration/configuration/README.md)
   * [Sugar Config](installation-and-configuration/configuration/sugar-config.md)
+* [Compatibility](installation-and-configuration/compatibility.md)
 
 ## Commands
 
