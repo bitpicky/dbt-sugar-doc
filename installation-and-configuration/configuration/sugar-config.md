@@ -27,6 +27,8 @@ syrups:
         path: "./tests/test_dbt_project/dbt_sugar_test"
         excluded_tables:
           - table_a
+        excluded_folders:
+          - folder_a
 ```
 {% endtab %}
 {% endtabs %}
