@@ -81,3 +81,11 @@ syrups:
 {% endtab %}
 {% endtabs %}
 
+#### preserve\_yaml\_order:
+
+{% hint style="info" %}
+New in **v0.1.0**
+{% endhint %}
+
+If you have comments in your `schema.yaml` files and you want to make sure that dbt-sugar does not delete them as part of its default behaviour to order models and columns alphabetically, you can choose to turn off this behaviour by setting the `preserve_yaml_order` config variable to `false`. This will make sure all your comments \(inline or blocks\) are preserved when we write back into your yaml file.
+

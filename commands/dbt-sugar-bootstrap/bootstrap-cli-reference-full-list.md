@@ -1,8 +1,6 @@
 # bootstrap CLI reference \(full-list\)
 
-{% hint style="warning" %}
-Coming soon.  
-  
-For now you can get help in the CLI by doing `dbt-sugar bootstrap --help`.
-{% endhint %}
+### Preserve Yaml Order
+
+The `--preserve-yaml-order` CLI flag disables dbt-sugar default behaviour alphabetical ordering sanitisation of your model descriptor files. **This is particularly handy if you have comments in your YAML files that you want to keep.** 
 
