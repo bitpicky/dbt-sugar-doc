@@ -16,16 +16,20 @@ dbt-sugar is a command-line interface tool that allows users of [dbt](https://ww
 
 ### Overview of Current Features
 
-#### Documentation Task
+#### [Documentation Task](commands/dbt-sugar-doc/)
 
 * document a model's description
 * document columns of a model \(and propagate description across fields that are identically named, we call this "homogenise" and it is the main reason behind why we built dbt-sugar,
 * add common `dbt` builtin tests such as `unique` or `not_null`,
 * add tags
 
-#### Audit Task
+#### [Audit Task](commands/dbt-sugar-audit/)
 
 * get a model or project level summary of the number of columns that are documented and tested.
+
+#### [Bootstrap Task](commands/dbt-sugar-bootstrap/)
+
+* Do you have very few models documented? Want to quickly generate `schema.yaml` files for all of your models and have it pre-populated by placeholders or already documented columns that share names across your projects. Kick it off with the bootstrap task
 
 ### What has recently changed?
 
